@@ -1,6 +1,6 @@
 const { EventHubProducerClient } = require("@azure/event-hubs");
 
-const connectionString = "EVENTHUBCONNECTIONSTRING";
+const connectionString = "Endpoint=sb://eventsqn8wkaf.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=AQNsFMKX9ie2/7c2AngERQfTcss/1Gin8+AEhKJ0mSU=";
 const eventHubName = "EVENTHUBNAME";
 
 async function main() {
